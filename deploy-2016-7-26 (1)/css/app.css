@@ -8,7 +8,8 @@
 }
 
 .BUTTONS{
-    height: 10em;
+    height: 7em;
+    
 }
 
 /*       Just setting CSS for the page   */
@@ -61,7 +62,9 @@ css {
   height: 100%;
   top: 0;
   left: 0;
+  
 }
+
 /*
     This is the outer svg wrapper that the SVG itself will 
     fill. Multiple svg-wrapper classes can be put side by side.
@@ -76,7 +79,9 @@ css {
   display: inline-block;
   border-radius: 3px;
   margin-left: 5px;
-  margin-right: 5px
+  margin-right: 5px;
+  font-family: 'Stalemate', cursive;
+  font-size: 1em;
 }
 /*
   This is where we define the fill, color, thickness,
@@ -121,3 +126,28 @@ make it thinner, then set it to again wrap around the entire parent element.
   stroke-dashoffset: 0;
   stroke: white;
 }
+
+.myquote{
+    margin-top: 12em;
+    color: white;
+}
+.myquote > h2,
+h1{
+    font-family: 'Megrim', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
