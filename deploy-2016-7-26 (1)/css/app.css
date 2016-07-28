@@ -5,6 +5,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 42em;
+    border-style: double;
+    border-color:white;
+    border-width: thick;
 }
 
 .BUTTONS{
@@ -40,13 +43,7 @@ css {
   font-family: Raleway;
 }*/
 
-#personal {
-  color:white;
-  text-decoration:none;
-  position:absolute;
-  bottom:15px;
-  right:2%;
-}
+
 /*    start code for the actual button:         */
 
 
@@ -127,13 +124,37 @@ make it thinner, then set it to again wrap around the entire parent element.
   stroke: white;
 }
 
+
+/*quote section font stylings*/
 .myquote{
+    padding: 2em;
     margin-top: 12em;
     color: white;
+    border-style: double;
+    border-width:thin;
+    border-radius: 1em;
 }
+
 .myquote > h2,
 h1{
     font-family: 'Megrim', cursive;
+
+}
+.myquote > p{
+    font-size: 1.3em;
+}
+.myquote > h1{
+    font-size: 3.5em;
+    font-weight: 700;
+    margin-bottom: 
+}
+
+.aboutme{
+    text-align: center;
+}
+
+.about > h3{
+  text-align: center;  
 }
 
 
